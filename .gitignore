@@ -1,0 +1,38 @@
+# Visual Studio / Rider
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.log
+
+# MonoGame build output
+**/bin/
+**/obj/
+**/Content/obj/
+**/Content/bin/
+
+# Compiled content pipeline cache
+**/Content/**/*.xnb
+
+# User-specific
+*.DotSettings.user
+*.csproj.user
+launchSettings.json
+
+# Rider / JetBrains
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.pidb
